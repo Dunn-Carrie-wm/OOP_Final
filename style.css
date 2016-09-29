@@ -1,0 +1,18 @@
+#form {
+    height: 400px;
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 40px;
+
+}
+#main {
+    float: right;
+    width: 1100px;
+    margin-top: -360px;
+}
+#header{
+    float: right;
+    width: 1100px;
+    margin-top: -400px;
+    text-align: center;
+}
