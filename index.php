@@ -45,20 +45,21 @@ $rows = $database->resultset();
 
 <body>
 <div id="form">
+    <div id="container">
 <h1 style="text-decoration: underline; margin-left: 70px">Add Post</h1>
-
 <form method="post" action="<?php $_SERVER['PHP_SELF']; ?>">
 
     <div class="form-group">
         <label >Post Title</label>
-        <input type="text" class="form-control" name="title"  placeholder="Enter Post Title">
+        <input style="background-color: lightgray" type="text" class="form-control" name="title"  placeholder="Enter Post Title">
     </div>
     <div class="form-group">
         <label>Post Body</label>
-        <textarea name="post" class="form-control" placeholder="Post Body"></textarea>
+        <textarea style="background-color: lightgray" name="post" class="form-control" placeholder="Post Body"></textarea>
     </div>
-    <input type="submit" name="submit" value="Submit" />
+    <input style="margin-left: 10px" type="submit" name="submit" value="Submit"/>
 </form>
+</div>
 </div>
 
 
